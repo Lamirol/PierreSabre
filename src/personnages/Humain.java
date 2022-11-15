@@ -59,9 +59,8 @@ public class Humain {
 		this.argent = this.argent + gain;
 	}
 
-	public int perdreArgent(int perte) {
+	public void perdreArgent(int perte) {
 		this.argent = argent - perte;
-		return argent;
 
 	}
 }
